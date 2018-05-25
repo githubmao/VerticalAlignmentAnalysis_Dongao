@@ -195,7 +195,7 @@ plot.coaster38 <- ggplot(coasterSpeed20_0.38,
                                 "K4+000", "K4+500", "K5+000", "K5+500",
                                 "K6+000", "K6+500", "K7+000", "K7+423")) +
   scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 5)) +
-  labstitle = "Friction Mu 0.38", (x = "位置", y = "速度，km/h") +
+  labs(title = "Friction Mu 0.38", x = "位置", y = "速度，km/h") +
   scale_colour_hue("Friction Mu")+
   theme(legend.title = element_text(face = "bold", size = 10),
         legend.text = element_text(face = "bold", size = 10),
